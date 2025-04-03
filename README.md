@@ -78,39 +78,8 @@ An LSTM-based model is used to classify IMDB movie reviews as positive or negati
 
 ---
 
-## Repository Structure
-```
-|-- autoencoder_rnn.py  # Contains all Python implementations
-|-- README.md           # Explanation of the assignment
-|-- results/            # Folder containing output images and logs
-```
-
-## Submission Details
-- The Python implementation is pushed to the GitHub repository.
-- A README file explains the methodology.
-- A short demonstration video (2-3 mins) is included.
-- Submission is completed via Blackboard with the GitHub link.
-
----
-
-## Running the Code
-1. Install dependencies:
-   ```bash
-   pip install tensorflow numpy matplotlib seaborn scikit-learn
-   ```
-2. Run the script:
-   ```bash
-   python autoencoder_rnn.py
-   ```
-3. View results for autoencoder and RNN models.
-
----
-
 ## Conclusion
 This assignment demonstrated autoencoder-based image reconstruction, denoising techniques, character-based text generation using RNNs, and sentiment analysis using LSTMs. Each model was trained and evaluated based on performance metrics.
 
----
 
-## Contact
-For any queries, feel free to reach out!
 
