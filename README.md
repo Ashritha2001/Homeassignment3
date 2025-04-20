@@ -32,6 +32,10 @@ An autoencoder is a neural network used to reconstruct its input. In this task:
 4. Visualize original vs. reconstructed images.
 5. Experiment with different latent space sizes (16, 64) to analyze reconstruction quality.
 
+Answer: Change the encoding dimension from 32 to 16 and 64, retrain, and observe reconstruction differences.
+Smaller latent space = more compression = potential quality loss.
+Larger latent space = better reconstructions but less compression.
+
 ---
 
 ## Q2: Implementing a Denoising Autoencoder
@@ -48,6 +52,8 @@ A denoising autoencoder is trained to remove noise from images. This task modifi
 3. Compare reconstruction quality of noisy vs. clean images.
 4. Explain a real-world application of denoising autoencoders (e.g., medical imaging).
 
+Answer: In medical imaging, denoising autoencoders are used to clean MRI or CT images corrupted by scanner noise — crucial for clearer diagnostics.
+
 ---
 
 ## Q3: Implementing an RNN for Text Generation
@@ -62,6 +68,11 @@ This task involves training an LSTM-based RNN to predict the next character in a
 4. Train the model to predict the next character.
 5. Generate new text and explain the effect of temperature scaling on randomness.
 
+Answer:  What is Temperature?
+Lower temp (< 0.5) → safer, predictable text.
+
+Higher temp (> 1.0) → diverse, creative, but potentially nonsensical output.
+
 ---
 
 ## Q4: Sentiment Classification Using RNN
@@ -75,6 +86,11 @@ An LSTM-based model is used to classify IMDB movie reviews as positive or negati
 3. Train an LSTM model for binary classification.
 4. Generate a confusion matrix and classification report.
 5. Discuss the importance of the precision-recall tradeoff in sentiment analysis.
+   
+Answer: Why Precision-Recall Tradeoff Matters:
+In cases where false positives/negatives have different consequences (e.g., spam detection), choosing between precision (how accurate positive predictions are) and recall (how many actual positives were caught) is crucial.
+
+
 
 ---
 
